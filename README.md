@@ -16,5 +16,5 @@ Once the optimal point to partition is decided, MTP splits the input DNN model, 
 
 ## How to Use
 ```
-python MPT.py --num_ssd={Number of SSD} --ssd_flops={FLOPS of SSD} --tl_flops={FLOPS of TL-Server} --model={model path}
+python MPT.py --num_ssd={Number of SSD} --ssd_flops={FLOPS of SSD} --tl_flops={FLOPS of TL-Server} --run_num={RunNum} --model={model path} --network={network bandwith}
 ```
